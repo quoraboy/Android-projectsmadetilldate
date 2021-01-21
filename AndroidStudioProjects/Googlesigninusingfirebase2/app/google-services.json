@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "211820348688",
+    "firebase_url": "https://signinusingfirebase2.firebaseio.com",
+    "project_id": "signinusingfirebase2",
+    "storage_bucket": "signinusingfirebase2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211820348688:android:9e44a925100c3577",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.googlesigninusingfirebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211820348688-dupcbaguaas30ovhimnugbmi65oeg88i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.googlesigninusingfirebase2",
+            "certificate_hash": "151684d7ee924ca797e3851a7101601164efec4c"
+          }
+        },
+        {
+          "client_id": "211820348688-h56jil6idl4hi9m5qble8uperg4fju25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCunGmyhUx7BOC2KcYc-NcHN1WF8HLzYCU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211820348688-h56jil6idl4hi9m5qble8uperg4fju25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

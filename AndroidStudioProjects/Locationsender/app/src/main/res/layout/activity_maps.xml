@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="178dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="601dp"
+        android:background="#FF9800"
+        android:hint="speed"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="205dp"
+        android:layout_height="131dp"
+        android:layout_alignStart="@+id/speed"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="600dp"
+        android:background="#E91E63"
+        android:hint="distance"
+        android:textSize="14sp" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        tools:context=".MapsActivity" />
+
+
+</RelativeLayout>

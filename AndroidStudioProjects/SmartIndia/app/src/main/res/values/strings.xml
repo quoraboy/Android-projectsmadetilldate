@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SmartIndia</string>
+    <string name="user">USER</string>
+    <string name="Authority">AUTHORITY</string>
+    <string name="userhindi">उपयोगकर्ता</string>
+    <string name="Authorityhindi">अधिकार</string>
+    <string name="Hindi">हिंदी</string>
+    <string name="English">English</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">Mobile Number </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_userdashboard">userdashboard</string>
+</resources>

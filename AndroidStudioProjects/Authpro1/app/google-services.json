@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "833843402334",
+    "firebase_url": "https://authpro1.firebaseio.com",
+    "project_id": "authpro1",
+    "storage_bucket": "authpro1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833843402334:android:48d8e0aa344689d5",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.authpro1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833843402334-vbv660nhvuvc5s2mlr6gblkqhhfjtitc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.authpro1",
+            "certificate_hash": "151684d7ee924ca797e3851a7101601164efec4c"
+          }
+        },
+        {
+          "client_id": "833843402334-bcfjdt9uf52nvg6urmvuqo8ilpfc3t2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEhzeEMrxO_TcyNLtvSzAZ9boYDbWA0Zc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833843402334-bcfjdt9uf52nvg6urmvuqo8ilpfc3t2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

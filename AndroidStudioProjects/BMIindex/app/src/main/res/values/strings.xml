@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMI index</string>
+    <string name="button2">More information</string>
+    <string name="button1">Calculate the BMI</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

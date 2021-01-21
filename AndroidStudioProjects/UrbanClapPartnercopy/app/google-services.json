@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "803572643716",
+    "firebase_url": "https://urbanclappartnercopy.firebaseio.com",
+    "project_id": "urbanclappartnercopy",
+    "storage_bucket": "urbanclappartnercopy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803572643716:android:4b743818d08217dc",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.urbanclappartnercopy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803572643716-smhef58ppjst9tkkncaqghkj8o25e7hc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.urbanclappartnercopy",
+            "certificate_hash": "151684d7ee924ca797e3851a7101601164efec4c"
+          }
+        },
+        {
+          "client_id": "803572643716-etuplrtqlek7rldmk4endgk1qvd868h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEQoHGJT2g2nsEo50IodMxOWXHwMJN7iU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803572643716-etuplrtqlek7rldmk4endgk1qvd868h7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

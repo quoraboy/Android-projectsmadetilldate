@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+
+        <item android:id="@+id/Ranking"
+            android:icon="@drawable/ic_wc_black_24dp"
+            android:title="Ranking"
+            ></item>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/mail"
+            android:title="Verify Email ID" />
+<item
+    android:title="Your Location"
+    android:icon="@drawable/yourlocation" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

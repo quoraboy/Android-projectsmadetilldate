@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aplidemo</string>
+    <string name="PersonalDetails">Personal Details</string>
+    <string name="Edit">Edit</string>
+
+    <string name="updatedetails">Update Details</string>
+    <string name="maritialstatus">Maritial Status</string>
+    <string name="gender">Gender</string>
+    <string name="dob">Date of birth</string>
+    <string name="name">NAME</string>
+    <string name="email">Email</string>
+    <string name="hometown">Home Town</string>
+    <string name="pincode">Pincode</string>
+    <string name="permanentaddress">Permanent Address</string>
+
+</resources>

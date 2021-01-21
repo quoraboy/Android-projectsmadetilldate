@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="start|center_vertical"
+        android:text="Popular Categories"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <ScrollView
+        style="@android:style/Widget.DeviceDefault.Light.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideInset">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <RadioButton
+                    android:id="@+id/r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Beauty Salon for women"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Personal fitness trainer"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="house painter"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="yoga instructer for home lessons"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="home tutor"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="plumber"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="carpenter"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="electrician"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="spa at home"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="makeup artist"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Massage for Men"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="aadhar card agent"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Nurses"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Air conditioner"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Arhitect"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Pandit"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Baking clasess"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Bathroom renovation"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="bike cleaning"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="cctc dealer"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Lawyer"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Construction"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="ouple dance"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Detective agency"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/r25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Dj"
+                    android:textColor="#756363"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/next"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#8e8c8c"
+        android:onClick="onClick"
+        android:text="next"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+</LinearLayout>
